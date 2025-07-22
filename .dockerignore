@@ -1,0 +1,44 @@
+# فایل‌ها و پوشه‌های پایتون
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# محیط‌های مجازی
+venv/
+env/
+.venv/
+
+# فایل‌های سیستم‌عامل
+.DS_Store
+Thumbs.db
+
+# فایل‌های git
+.git/
+.gitignore
+
+# لاگ‌ها و خروجی‌های موقت
+*.log
+*.sqlite3
+*.db
+*.tmp
+*.bak
+
+# فایل‌های تست یا پوشش کد
+.coverage
+coverage.xml
+htmlcov/
+
+# فایل‌های ساخت
+dist/
+build/
+*.egg-info/
+
+# فایل‌های پیکربندی IDE
+.idea/
+.vscode/
+
+# پوشه‌های داده‌های برنامه
+uploaded_files/
+chroma_db/

@@ -1,0 +1,66 @@
+# 📦 Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# 🧪 Testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+pytest_cache/
+.cache/
+
+# 📁 Environments
+.env
+.env.*
+.venv/
+venv/
+Pipfile.lock
+poetry.lock
+
+# 🧠 LangChain & Chroma
+chroma_db/
+uploaded_files/
+*.vectordb
+*.faiss
+*.jsonl
+
+# 📋 Logs & Outputs
+*.log
+*.sqlite3
+*.db
+*.sql
+*.bak
+*.tar.gz
+
+# 🐳 Docker & VS Code
+Dockerfile
+docker-compose.yml
+.vscode/
+*.code-workspace
+
+# 🧪 MyPy & Pylint & Pyright
+.mypy_cache/
+.pyright/
+.pylint.d/
+
+# 🔐 Secrets or sensitive config
+*.pem
+*.key
+*.crt
+
+# 💻 IDEs & OS files
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# 🔌 Uvicorn reload artifacts (optional)
+*.pid
